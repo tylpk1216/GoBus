@@ -1,0 +1,5 @@
+{
+    "url" : "http://pda.5284.com.tw/MQS/businfo2.jsp?routename=%E7%B6%A05",
+    "pattern1" : "Dir=0&Route=%E7%B6%A05&Stop=%E9%81%A0%E6%9D%B1%E5%B7%A5%E6%A5%AD%E5%9F%8E",
+    "pattern2" : "<td align=center nowrap>"
+}
