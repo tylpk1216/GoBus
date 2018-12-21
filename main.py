@@ -93,10 +93,11 @@ if __name__ == '__main__':
     screenWidth = user32.GetSystemMetrics(0)
     screenHeight = user32.GetSystemMetrics(1)
 
-    point = (screenWidth - frmWidth, screenHeight - frmHeight - 40)
     size = wx.Size(frmWidth, frmHeight)
+    style = wx.MAXIMIZE_BOX | wx.STAY_ON_TOP
+    point = (screenWidth - frmWidth, screenHeight - frmHeight - 40)
 
-    frm = MainFrame(None, title='GoBus', size=size, style=(wx.MAXIMIZE_BOX | wx.STAY_ON_TOP), pos=point)
+    frm = MainFrame(None, title='GoBus', size=size, style=style, pos=point)
     frm.Show()
     app.MainLoop()
 
