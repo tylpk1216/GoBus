@@ -80,8 +80,7 @@ class MainFrame(wx.Frame):
         print(num)
         self.st.SetLabel(num)
 
-
-if __name__ == '__main__':
+def main():
     # When this module is run (not imported) then create the app, the
     # frame, show it, and start the event loop.
     app = wx.App()
@@ -100,4 +99,8 @@ if __name__ == '__main__':
     frm = MainFrame(None, title='GoBus', size=size, style=style, pos=point)
     frm.Show()
     app.MainLoop()
+
+
+if __name__ == '__main__':
+    main()
 
