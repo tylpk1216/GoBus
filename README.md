@@ -11,7 +11,7 @@ GoBus 是一個提醒公車來了沒有的小工具，只要設定好資料，�
 
 ## 如何使用
 ```
-1. 去 5284 找出想要搭乘的路線，ex: http://pda.5284.com.tw/MQS/businfo2.jsp?routename=930
+1. 去 5284 找出想要搭乘的路線，e.g. http://pda.5284.com.tw/MQS/businfo2.jsp?routename=930
 2. 在瀏覽器中選擇觀看網頁原始檔
 3. 依序複製紅框處 2 行字串，第 2 個字串前後需包含 "<" and ">"
 ```
